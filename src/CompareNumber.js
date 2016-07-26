@@ -4,21 +4,19 @@ class CompareNumber {
         this.answer = answer;
     }
 
-   /* output() {
-        let A;
-        let B;
+ /*   output() {
+
         const inputArray = this.input.split('');
         const answerArray = this.answer.split('');
 
         const array = inputArray.map(arr => {
             answerArray.find(aArr => {
-                if((arr === aArr) && (answerArray.indexOf(aArr) === inputArray.indexOf(arr))){
-                    return A;
-                }else if((arr === aArr) && (indexOf(arr) === indexOf(Aarr))) {
-                    return B;
+                if((arr === aArr) && (answerArray.indexOf(aArr) === inputArray.indexOf(aArr))){
+                    return 'A';
+                }else if((arr === aArr) && (answerArray.indexOf(aArr) != inputArray.indexOf(aArr))) {
+                    return 'B';
                 }
             });
-            return {A,B}
         });
         const Acount = array.filter(count => count === 'A').length;
         const Bcount = array.length - Acount;
