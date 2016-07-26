@@ -1,4 +1,4 @@
-const compareNumber = require('../src/CompareNumber');
+/*const compareNumber = require('../src/CompareNumber');
 
 describe('CompareNumber',function () {
     it("CompareNumber- true",function () {
@@ -33,4 +33,4 @@ describe('CompareNumber',function () {
         expect(checktrue.output()).toEqual(expected);
     });
     
-});
+});*/
