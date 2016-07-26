@@ -32,6 +32,5 @@ describe('CompareNumber',function () {
         const expected = '0A4B';
         expect(checktrue.output()).toEqual(expected);
     });
-
     
 });

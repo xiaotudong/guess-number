@@ -4,24 +4,6 @@ class CompareNumber {
         this.answer = answer;
     }
 
- /*   output() {
-
-        const inputArray = this.input.split('');
-        const answerArray = this.answer.split('');
-
-        const array = inputArray.map(arr => {
-            answerArray.find(aArr => {
-                if((arr === aArr) && (answerArray.indexOf(aArr) === inputArray.indexOf(aArr))){
-                    return 'A';
-                }else if((arr === aArr) && (answerArray.indexOf(aArr) != inputArray.indexOf(aArr))) {
-                    return 'B';
-                }
-            });
-        });
-        const Acount = array.filter(count => count === 'A').length;
-        const Bcount = array.length - Acount;
-        return `${Acount}A${Bcount}B`;
-    }*/
     output() {
 
         const inputArray = this.input.split('');
